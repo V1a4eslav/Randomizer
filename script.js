@@ -28,6 +28,8 @@ window.addEventListener('load', function (event) {
 
    btnReset.addEventListener('click', resetForm);
 
+
+   // ф-ция для сброса формы и прочего содержимого
    function resetForm() {
       form.reset();
       numbersList.length = 0;
