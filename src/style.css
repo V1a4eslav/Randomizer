@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-size: 14px;
+   font-weight: 400;
+}
+
+.generator {
+}
+.generator__container {
+   max-width: 1920px;
+   margin: 0 auto;
+   background-color: #faebd8;
+}
+.generator__inner {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   min-height: 100vh;
+}
+.generator__title {
+   margin-bottom: 30px;
+   font-size: 30px;
+}
+.generator__text {
+   font-weight: 700;
+   margin-bottom: 20px;
+   font-size: 20px;
+}
+.generator__input-block {
+   width: 200px;
+   margin-bottom: 20px;
+}
+.generator__min-input {
+   margin-bottom: 20px;
+}
+.input-text {
+   width: 100%;
+   height: 20px;
+   padding: 0 5px;
+}
+.generator__max-input {
+   margin-bottom: 5px;
+}
+.generator__btn {
+   font-size: 16px;
+   cursor: pointer;
+}
+.generator__btn.generator__btn_mergin-botom {
+   margin-bottom: 20px;
+}
+.generator__count {
+   font-weight: 600;
+   margin-bottom: 20px;
+}
+.generator__count-number {
+}

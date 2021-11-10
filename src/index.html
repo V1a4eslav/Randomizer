@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./style.css">
+   <title>Generator</title>
+</head>
+
+<body>
+   <div class="generator">
+      <div class="generator__container">
+         <div class="generator__inner">
+            <h1 class="generator__title">Randomizer</h1>
+            <form class="generator__form">
+               <div class="generator__text">Min</div>
+               <div class="generator__min-input generator__input-block">
+                  <input class="input-text input-text_min" placeholder="min" type="number">
+               </div>
+               <div class="generator__text">Max</div>
+               <div class="generator__max-input generator__input-block">
+                  <input class="input-text input-text_max" placeholder="max" type="number">
+               </div>
+               <button class="generator__btn generator__btn_generate generator__btn_mergin-botom"
+                       type="button" disabled>Generate</button>
+               <div class="generator__count">Genetated number: <span class="generator__count-number"></span></div>
+               <button class="generator__btn generator__btn_reset" type="button">Reset</button>
+            </form>
+         </div>
+      </div>
+   </div>
+
+
+   <script src="./script.js"></script>
+</body>
+
+</html>
